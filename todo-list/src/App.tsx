@@ -7,7 +7,7 @@ import {ITask} from './interfaces';
 
 const App: FC = () => {
 
-  
+  //Khai bao
   const [task, setTask] = useState<string>("")
   const [deadline, setDeadline] = useState<number>(0)
   const [todo, setTodo] = useState<ITask[]>([])
