@@ -6,7 +6,7 @@ interface Props {
     task: ITask;
     completeTask(taskNameToDelete: string): void;
 }
-
+//span
 const TodoTask = ({task, completeTask}: Props) => {
     return (<div className="task">
         <div className="content">
